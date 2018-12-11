@@ -8,7 +8,8 @@ namespace ContosoUniversity.Models
         public int ID { get; set; }
         public string LastName { get; set; }
         public string FirstMidName { get; set; }
-        public string Telephone { get; set; }
+        public string Module { get; set; }
+        public string StudentID { get; set; }
         public DateTime EnrollmentDate { get; set; }
 
         public ICollection<Enrollment> Enrollments { get; set; }
